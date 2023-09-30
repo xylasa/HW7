@@ -1,10 +1,9 @@
-const BangunDatar = require('./BangunDatar.js');
+const bangunDatar = require("./bangunDatar");
 
-const sisiPersegi = 20; 
-console.log("Luas Persegi:", BangunDatar.luasPersegi(sisiPersegi));
-console.log("Keliling Persegi:", BangunDatar.kelilingPersegi(sisiPersegi));
-
-const panjangPersegiPanjang = 20; 
-const lebarPersegiPanjang = 37;   
-console.log("Luas Persegi Panjang:", BangunDatar.luasPersegiPanjang(panjangPersegiPanjang, lebarPersegiPanjang));
-console.log("Keliling Persegi Panjang:", BangunDatar.kelilingPersegiPanjang(panjangPersegiPanjang, lebarPersegiPanjang));
+const sisiPersegi = 30;
+console.log("Luas Persegi:", bangunDatar.luasPersegi(sisiPersegi));
+console.log("Keliling Persegi:", bangunDatar.kelilingPersegi(sisiPersegi));
+const panjangPersegiPanjang = 20;
+const lebarPersegiPanjang = 50;
+console.log("Luas Persegi Panjang:", bangunDatar.luasPersegiPanjang(panjangPersegiPanjang, lebarPersegiPanjang));
+console.log("Keliling Persegi Panjang:", bangunDatar.kelilingPersegiPanjang(panjangPersegiPanjang, lebarPersegiPanjang));
