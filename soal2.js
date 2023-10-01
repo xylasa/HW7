@@ -47,6 +47,10 @@ const logData = `03/22 08:54:24 INFO   :......rsvp_flow_stateMachine: state RESV
 
 const logFileName = 'log.txt';
 
+fs.readFile("log.txt", "utf-8", (err, logData) => {
+    if (err) { console.log(err) }
+    console.log(logData);
+})
 
 fs.appendFile(logFileName, logData, (err) => {
 if (err) {
